@@ -1,0 +1,46 @@
+h1{
+    font-size:4rem;
+}
+
+.roboto{
+    font-family: 'Roboto';
+    border-right:1px solid black;
+}
+
+.mansalva{
+    font-family: 'Mansalva';
+}
+
+main{
+    display:flex;
+}
+
+div{
+    height:100vh;
+    width:50vw;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+div a{
+    text-decoration:none;
+    color:black;
+    text-align:center;
+}
+
+@media (max-width:600px){
+    main{
+        flex-wrap:wrap;
+    }
+    div{
+        width:100vw;
+        height:50vh;
+    }
+    .roboto{
+        border-bottom:1px solid black;
+    }
+    h1{
+        font-size:2em;
+    }
+}
